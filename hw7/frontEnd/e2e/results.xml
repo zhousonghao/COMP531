@@ -1,0 +1,18 @@
+
+> starter@1.0.0 e2e:base D:\GitHub\comp531\hw6\frontend
+> mocha --opts e2e/mocha.opts e2e/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="12" failures="0" errors="0" skipped="0" timestamp="Tue, 08 Nov 2016 18:19:42 GMT" time="38.238">
+<testcase classname="Test Ricebook Login Page" name="Register a new user" time="3.251"/>
+<testcase classname="Test Ricebook Login Page" name="Log in as my test user" time="3.27"/>
+<testcase classname="Test Ricebook Main Page" name="Create a new article and validate the article appears in the feed" time="2.27"/>
+<testcase classname="Test Ricebook Main Page" name="Edit an article and validate the article text has updated" time="0.743"/>
+<testcase classname="Test Ricebook Main Page" name="Update the status headline and verify the change" time="4.875"/>
+<testcase classname="Test Ricebook Main Page" name="Add the user &quot;Follower&quot; to the list of followed users and verify following count increases by one" time="2.696"/>
+<testcase classname="Test Ricebook Main Page" name="Remove the user &quot;Follower&quot; from the list of followed users and verify following count decreases by one" time="2.6"/>
+<testcase classname="Test Ricebook Main Page" name="Search for &quot;Only One Article Like This&quot; and verify only one article shows, and verify the author" time="2.732"/>
+<testcase classname="Test profile Page" name="Update user email and verify" time="2.703"/>
+<testcase classname="Test profile Page" name="Update user zipcode and verify" time="2.625"/>
+<testcase classname="Test profile Page" name="Update user password and verify" time="2.76"/>
+<testcase classname="shutdown" name="now" time="2.392"/>
+</testsuite>
