@@ -1,0 +1,5 @@
+{
+     "netid": "sz40",
+  "frontend": "shiny-ground.surge.sh",
+   "backend": "https://sz40ricebook.herokuapp.com"
+}
